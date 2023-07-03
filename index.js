@@ -8,3 +8,18 @@ concerts[1]; // April 29
 concerts[2]; // May 5
 concerts[3]; // May 10
 concerts[4]; // May 17
+
+// Setting elements in an array
+concerts[0] = 'May 26';
+concerts[1] = 'May 29';
+
+// Set new element in concerts array
+concerts[5] = 'May 1';
+
+// Dates out of order now. Reorder like this: 
+concerts[0] = 'May 1';
+concerts[1] = 'May 5';
+concerts[2] = 'May 10';
+concerts[3] = 'May 17';
+concerts[4] = 'May 26';
+concerts[5] = 'May 29';
