@@ -25,14 +25,20 @@ concerts[4] = 'May 26';
 concerts[5] = 'May 29';
 
 // Working with array lengths
-console.log(`2BU will be live in ${dates.length} concerts for their comeback World Tour!`);
+// console.log(`2BU will be live in ${dates.length} concerts for their comeback World Tour!`);
 // prints "2BU will be live in 55 concerts for their comeback World Tour!"
 // Assumes Team Lead has already created 'dates' array
 
 // Display last tour date
-console.log(`Your last chance to see 2BU is ${dates[dates.length - 1]}!`);
+// console.log(`Your last chance to see 2BU is ${dates[dates.length - 1]}!`);
 // prints "Your last chance to see 2BU is December 22!"
 
 // Alternative last tour date
-console.log('Your last chance to see 2BU is ${dates.at(-1)}!');
+// console.log('Your last chance to see 2BU is ${dates.at(-1)}!');
 // prints "Your last chance to see 2BU is December 22!"
+
+let chicTour = "June 1, 2023 - Los Angelos, CA | June 3, 2023 - San Francisco, CA | June 5, 2023 - Seattle, WA | June 7, 2023 - Vancouver, BC"
+
+// You can create an array from this string using the split method, like this:
+chicDates = chicTour.split(" | "); 
+// evaluates to ["June 1 - Los Angelos", "June 3 - San Francisco", "June 5 - Seattle", "June 7 - Vancouver"];
